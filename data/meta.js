@@ -3,7 +3,7 @@ window.ALGOS = [
  {
   "id": "pc",
   "abbr": "PC",
-  "name": "Peter-Clark",
+  "name": "Peter–Clark",
   "section": "4.1",
   "authors": "Spirtes & Glymour",
   "year": 1991,
@@ -21,7 +21,7 @@ window.ALGOS = [
   "name": "K2",
   "section": "4.2",
   "authors": "Cooper & Herskovits",
-  "year": 1992,
+  "year": 1991,
   "tags": [
    "score"
   ],
@@ -32,7 +32,7 @@ window.ALGOS = [
  {
   "id": "hc",
   "abbr": "HC/Tabu",
-  "name": "Hill Climbing / Tabu",
+  "name": "Hill Climbing",
   "section": "4.3",
   "authors": "Heckerman et al.",
   "year": 1995,
@@ -100,7 +100,7 @@ window.ALGOS = [
   "name": "Bayesian Optimization Algorithm",
   "section": "4.7",
   "authors": "Pelikan et al.",
-  "year": 2005,
+  "year": 1998,
   "tags": [
    "score"
   ],
@@ -111,7 +111,7 @@ window.ALGOS = [
  {
   "id": "gs",
   "abbr": "GS",
-  "name": "Grow-Shrink",
+  "name": "Grow–Shrink",
   "section": "4.8",
   "authors": "Margaritis & Thrun",
   "year": 1999,
@@ -141,7 +141,7 @@ window.ALGOS = [
  {
   "id": "tpda",
   "abbr": "TPDA",
-  "name": "Three-Phase Dependency Analysis",
+  "name": "Three-Phase Dependency Algorithm",
   "section": "4.10",
   "authors": "Cheng et al.",
   "year": 2002,
@@ -157,7 +157,7 @@ window.ALGOS = [
  {
   "id": "mmpc",
   "abbr": "MMPC",
-  "name": "Max-Min Parents and Children",
+  "name": "Max–Min Parents and Children",
   "section": "4.11",
   "authors": "Tsamardinos et al.",
   "year": 2003,
@@ -176,7 +176,7 @@ window.ALGOS = [
   "name": "Greedy Equivalence Search",
   "section": "4.12",
   "authors": "Chickering",
-  "year": 2002,
+  "year": 2003,
   "tags": [
    "score"
   ],
@@ -242,7 +242,7 @@ window.ALGOS = [
  {
   "id": "optord",
   "abbr": "OptOrd",
-  "name": "Optimal Reinsertion / DP over Orderings",
+  "name": "Optimal Order (DP)",
   "section": "4.16",
   "authors": "Singh & Moore",
   "year": 2005,
@@ -339,7 +339,7 @@ window.ALGOS = [
   "name": "Stochastic Approximation MCMC",
   "section": "4.22",
   "authors": "Liang & Zhang",
-  "year": 2007,
+  "year": 2009,
   "tags": [
    "score",
    "bma"
@@ -368,7 +368,7 @@ window.ALGOS = [
  {
   "id": "ebb",
   "abbr": "E-B&B",
-  "name": "Extended Branch-and-Bound",
+  "name": "Etminani B&B",
   "section": "4.24",
   "authors": "Etminani et al.",
   "year": 2010,
@@ -400,10 +400,10 @@ window.ALGOS = [
  {
   "id": "gobnilp",
   "abbr": "GOBNILP",
-  "name": "Globally Optimal BN via ILP",
+  "name": "Globally Optimal Bayesian Network learning using Integer Linear Programming",
   "section": "4.26",
   "authors": "Cussens",
-  "year": 2012,
+  "year": 2011,
   "tags": [
    "score",
    "exact"
@@ -417,7 +417,7 @@ window.ALGOS = [
  {
   "id": "astar",
   "abbr": "A*",
-  "name": "A* Search",
+  "name": "A* search",
   "section": "4.27",
   "authors": "Yuan et al.",
   "year": 2011,
@@ -434,7 +434,7 @@ window.ALGOS = [
  {
   "id": "cfci",
   "abbr": "CFCI",
-  "name": "Conservative FCI",
+  "name": "Conservative Fast Causal Inference",
   "section": "4.28",
   "authors": "Colombo et al.",
   "year": 2012,
@@ -500,7 +500,7 @@ window.ALGOS = [
  {
   "id": "sada",
   "abbr": "SADA",
-  "name": "Scalable Causation Discovery Algorithm",
+  "name": "Scalable cAusation Discovery Algorithm",
   "section": "4.33",
   "authors": "Cai et al.",
   "year": 2013,
@@ -530,7 +530,7 @@ window.ALGOS = [
  {
   "id": "resit",
   "abbr": "RESIT",
-  "name": "Regression with Subsequent Independence Test",
+  "name": "REgression with Subsequent Independence Test",
   "section": "4.35",
   "authors": "Peters et al.",
   "year": 2014,
@@ -675,7 +675,7 @@ window.ALGOS = [
  {
   "id": "notears",
   "abbr": "NOTEARS",
-  "name": "Non-combinatorial Optimization (NOTEARS)",
+  "name": "Non-combinatorial Optimization via Trace Exponential and Augmented Lagrangian for Structure Learning",
   "section": "4.44",
   "authors": "Zheng et al.",
   "year": 2018,
@@ -736,7 +736,7 @@ window.ALGOS = [
  {
   "id": "liidm",
   "abbr": "LIIDM",
-  "name": "Linear SEM IID-noise Discovery",
+  "name": "Linear SEM with IID noise variables Model",
   "section": "4.48",
   "authors": "Xie et al.",
   "year": 2019,
@@ -768,7 +768,7 @@ window.ALGOS = [
  {
   "id": "twoadjacency",
   "abbr": "2-adjacency",
-  "name": "2-adjacency Faithfulness",
+  "name": "2-adjacency faithfulness",
   "section": "4.50",
   "authors": "Marx et al.",
   "year": 2021,
@@ -785,7 +785,7 @@ window.ALGOS = [
  {
   "id": "alphabeta",
   "abbr": "α-β",
-  "name": "α-β Collaborative Discovery",
+  "name": "α-β collaborative discovery",
   "section": "4.51",
   "authors": "Addanki & Kasiviswanathan",
   "year": 2021,
@@ -821,7 +821,7 @@ window.ALGOS = [
  {
   "id": "marvel",
   "abbr": "MARVEL",
-  "name": "Markov-boundary Recursive Variable Elimination",
+  "name": "Markov boundary-based recursive variable elimination",
   "section": "4.53",
   "authors": "Mokhtarian et al.",
   "year": 2021,
@@ -835,7 +835,7 @@ window.ALGOS = [
  {
   "id": "camuv",
   "abbr": "CAMUV",
-  "name": "Causal Additive Model w/ Unobserved Vars",
+  "name": "Causal Additive Model with Unobserved Variables",
   "section": "4.54",
   "authors": "Maeda & Shimizu",
   "year": 2021,
@@ -865,7 +865,7 @@ window.ALGOS = [
  {
   "id": "latentges",
   "abbr": "LatentGES",
-  "name": "Latent Greedy Equivalence Search",
+  "name": "Latent Greedy PAG Search",
   "section": "4.56",
   "authors": "Claassen & Bucur",
   "year": 2022,
@@ -883,7 +883,7 @@ window.ALGOS = [
  {
   "id": "ahp",
   "abbr": "AHP",
-  "name": "Ancestral/Heuristic Partition",
+  "name": "Ancestral and Heuristic Partition",
   "section": "4.57",
   "authors": "Tan et al.",
   "year": 2022,
@@ -922,7 +922,7 @@ window.ALGOS = [
   "authors": "Hong et al.",
   "year": 2023,
   "tags": [
-   "data-distributed"
+   "distributed"
   ],
   "basedOn": [
    "cp"
@@ -933,7 +933,7 @@ window.ALGOS = [
  {
   "id": "cim",
   "abbr": "CIM",
-  "name": "Characteristic Imset",
+  "name": "Characteristic IMset",
   "section": "4.60",
   "authors": "Linnusson et al.",
   "year": 2023,
@@ -955,7 +955,7 @@ window.ALGOS = [
   "authors": "Jia et al.",
   "year": 2023,
   "tags": [
-   "data-distributed"
+   "distributed"
   ],
   "basedOn": [
    "sar"
@@ -966,7 +966,7 @@ window.ALGOS = [
  {
   "id": "decamfounder",
   "abbr": "DeCAMFounder",
-  "name": "Deconfounder for Additive Models",
+  "name": "Deconfounder for Canonical Additive Models",
   "section": "4.62",
   "authors": "Agrawal et al.",
   "year": 2023,
@@ -982,12 +982,12 @@ window.ALGOS = [
  {
   "id": "cpa",
   "abbr": "CPA",
-  "name": "Causal Partitioning (Adjoint)",
+  "name": "Causal Partitioning of the Adjoint graph",
   "section": "4.63",
   "authors": "Zhang et al.",
   "year": 2024,
   "tags": [
-   "data-distributed"
+   "distributed"
   ],
   "basedOn": [
    "cp"
@@ -998,10 +998,10 @@ window.ALGOS = [
  {
   "id": "tat",
   "abbr": "TAT",
-  "name": "Time-Approximation Trade-off",
+  "name": "Time–Approximation Trade-off",
   "section": "4.64",
   "authors": "Kundu et al.",
-  "year": 2023,
+  "year": 2024,
   "tags": [
    "score",
    "approximate"
@@ -1013,7 +1013,7 @@ window.ALGOS = [
  {
   "id": "fedges",
   "abbr": "FedGES",
-  "name": "Federated GES",
+  "name": "Federated Greedy Equivalence Search",
   "section": "4.65",
   "authors": "Torrijos et al.",
   "year": 2025,
@@ -1160,7 +1160,7 @@ window.ALGOS = [
  {
   "id": "bblp",
   "abbr": "BBLP",
-  "name": "Branch-and-Bound with LP",
+  "name": "Branch-and-Bound with Linear Programming",
   "section": "5.6",
   "authors": "Jaakkola et al.",
   "year": 2010,
@@ -1175,7 +1175,7 @@ window.ALGOS = [
  {
   "id": "orderedgs",
   "abbr": "OrderedGS",
-  "name": "Ordered Grow-Shrink",
+  "name": "Ordered Grow–Shrink",
   "section": "5.7",
   "authors": "Bromberg et al.",
   "year": 2009,
@@ -1192,7 +1192,7 @@ window.ALGOS = [
  {
   "id": "ecos",
   "abbr": "ECOS",
-  "name": "Extended Constrained Optimal Search",
+  "name": "Edge–Constrained Optimal Search",
   "section": "5.8",
   "authors": "Kojima et al.",
   "year": 2010,
@@ -1209,7 +1209,7 @@ window.ALGOS = [
  {
   "id": "pcb",
   "abbr": "PCB",
-  "name": "Partial Correlation-Based",
+  "name": "Partial Correlation–Based",
   "section": "5.9",
   "authors": "Yang et al.",
   "year": 2011,
@@ -1241,7 +1241,7 @@ window.ALGOS = [
  {
   "id": "inobs",
   "abbr": "INOBS",
-  "name": "Neighborhood OBS",
+  "name": "Neighborhood Ordering-Based Search",
   "section": "5.11",
   "authors": "Lee & van Beek",
   "year": 2017,
@@ -1260,7 +1260,7 @@ window.ALGOS = [
   "name": "Window ASOBS",
   "section": "5.12",
   "authors": "Scanagatta et al.",
-  "year": 2018,
+  "year": 2017,
   "tags": [
    "score"
   ],
@@ -1297,7 +1297,7 @@ window.ALGOS = [
   "year": 2020,
   "tags": [
    "constraint",
-   "data-distributed"
+   "distributed"
   ],
   "basedOn": [
    "pc",
@@ -1327,7 +1327,7 @@ window.ALGOS = [
  {
   "id": "localdsla",
   "abbr": "LocalDSLA",
-  "name": "Local Decomposition Structure Learning",
+  "name": "Local Decomposition-based Structure Learning",
   "section": "5.16",
   "authors": "Dai et al.",
   "year": 2020,
@@ -1347,7 +1347,7 @@ window.ALGOS = [
   "name": "Permutation and Extensible Ordering-Based Search",
   "section": "5.17",
   "authors": "Xu et al.",
-  "year": 2021,
+  "year": 2022,
   "tags": [
    "score"
   ],

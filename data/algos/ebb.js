@@ -4,7 +4,7 @@
    Branch-and-Bound of de Campos et al. (§4.23, id="bb"). */
 window.ALGO_DATA = window.ALGO_DATA || {};
 window.ALGO_DATA["ebb"] = {
-  name: "Extended Branch-and-Bound (E-B&B)",
+  name: "Etminani B&B (E-B&B)",
   oneLiner: "Find the highest-scoring DAG exactly by searching a layered tree that, variable by variable, swaps in alternative parent sets from per-variable score-sorted caches — but with extra pruning rules (best-first cache cut-off, bound-vs-incumbent, and early cycle detection on already-processed variables) that cut away large parts of the tree the plain B&B would still explore.",
   basedOnText: "E-B&B is an <b>exact, score-based</b> method that revisits de Campos et al.'s Branch-and-Bound (§4.23). It keeps B&B's promise — return the globally optimal structure for a decomposable score — but changes <i>how</i> the search tree is built and adds tighter pruning so far fewer candidate graphs are ever examined.",
 

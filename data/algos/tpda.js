@@ -4,7 +4,7 @@
    worked Example 19 on {M,D,B,C,V} (Figs. 36-42). */
 window.ALGO_DATA = window.ALGO_DATA || {};
 window.ALGO_DATA["tpda"] = {
-  name: "Three-Phase Dependency Analysis (TPDA)",
+  name: "Three-Phase Dependency Algorithm (TPDA)",
   oneLiner: "Build the undirected skeleton in three passes — draft a tree from the strongest dependencies, thicken it by adding edges for pairs that stay dependent given the current separating path, thin it by deleting edges for pairs that turn independent given some conditioning set — then orient PC-style.",
   basedOnText: "TPDA is an information-theoretic constraint-based method: it uses conditional mutual information (CMI) as its quantitative test of dependence, and exploits the assumption that opening more paths never lowers dependence to prune conditioning sets and so run far fewer CI tests than an exhaustive search.",
 

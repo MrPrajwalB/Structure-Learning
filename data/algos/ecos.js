@@ -7,7 +7,7 @@
    partition/merge = Fig.216; cluster solve forbiddances = Fig.217; merge = Fig.218. */
 window.ALGO_DATA = window.ALGO_DATA || {};
 window.ALGO_DATA["ecos"] = {
-  name: "ECOS (Extended Constrained Optimal Search)",
+  name: "ECOS (Edge–Constrained Optimal Search)",
   oneLiner: "An exact score-based method that takes a sparse super-structure restricting which edges are allowed, cuts it into a few smaller clusters, solves the provably best sub-network inside each cluster, and then stitches the clusters back together along the cut edges — so an exact optimum can be found on networks too large for plain exact search.",
   basedOnText: "ECOS extends COS (Constrained Optimal Search). COS already restricts the search to edges allowed by an undirected <i>super-structure</i> H and finds the globally optimal DAG inside it. ECOS goes further: it <b>decomposes</b> the super-structure into clusters, solves each cluster <b>exactly and independently</b>, and <b>merges</b> the cluster solutions consistently across the cut — a decompose-solve-merge wrapper that lets exact learning reach larger problems than COS alone.",
 

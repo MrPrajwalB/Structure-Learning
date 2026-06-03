@@ -10,7 +10,7 @@
    X1=2H+N1, X2=sin(X1)+N2, X3=X2^2 - H+N3, H~N(0,1), N_i~N(0,0.1); G* = chain X1→X2→X3. */
 window.ALGO_DATA = window.ALGO_DATA || {};
 window.ALGO_DATA["decamfounder"] = {
-  name: "DeCAMFounder (Deconfounder for Causal Additive Models)",
+  name: "DeCAMFounder (Deconfounder for Canonical Additive Models)",
   oneLiner: "When MANY hidden factors influence lots of variables at once (pervasive confounding), first estimate that shared hidden signal from the data's common variation — like extracting hidden factors with a PCA/factor model — then subtract it out of every variable, and finally run nonlinear additive-noise structure learning on the cleaned (deconfounded) variables so the remaining variation reveals the true direct causes.",
   basedOnText: "DeCAMFounder targets nonlinear causal additive models in which a low-dimensional set of unmeasured factors confounds essentially all observed variables. Its insight is that pervasive confounding is precisely what makes the hidden signal estimable: when one hidden factor drives many variables, it shows up as the dominant directions of common variation, which a spectral (PCA) factor model can recover and then remove — turning a confounded problem back into an ordinary additive-noise one.",
 
