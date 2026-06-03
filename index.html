@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>BN Structure Learning — Interactive Survey Dashboard</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/styles.css">
+</head>
+<body>
+<div class="app">
+  <aside class="sidebar">
+    <div class="brand">
+      <h1>BN Structure Learning</h1>
+      <div class="sub">Interactive companion to the survey</div>
+      <div class="prog" id="progtext">…</div>
+      <div class="bar"><i id="progbar"></i></div>
+    </div>
+    <div class="searchbox"><input id="search" type="text" placeholder="Search algorithms…"></div>
+    <div class="filters" id="filters"></div>
+    <div class="navlist" id="navlist"></div>
+  </aside>
+  <section class="main" id="main">
+    <div class="content"></div>
+  </section>
+</div>
+
+<!-- data -->
+<script src="data/meta.js"></script>
+<script src="data/manifest.js"></script>
+<!-- engine + ui -->
+<script src="assets/js/graph-engine.js"></script>
+<script src="assets/js/ui.js"></script>
+<script src="assets/js/lineage.js"></script>
+<script src="assets/js/app.js"></script>
+</body>
+</html>
